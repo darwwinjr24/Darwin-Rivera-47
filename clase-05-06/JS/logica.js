@@ -130,5 +130,16 @@ function cerrar() {
 
 
 function igual() {
-    sumas()
+    if(sumas()=='+'){       
+}else{
+}
+if(restas()=='-'){     
+}else{
+}
+if(multiplicaciones()=='*'){      
+}else{
+}
+if(divisiones()=='/'){      
+}else{
+}
 }
