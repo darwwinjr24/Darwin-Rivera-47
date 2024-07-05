@@ -8,15 +8,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <title>Calculadora</title>
-
-
-  <div class="container-fluid">
-
-
-
-
+ <div class="container-fluid">
 </head>
-
 <body>
   <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
@@ -26,33 +19,34 @@
   <div class="container">
     <h3>CALCULADORA</h1>
       <input type="text" class="mt-3" id="pantalla">
-      <h5 id="resultado" class="mt-4"></h3>
-      <div>
-        <button onclick="n1()" class="mt-3">1</button>
-        <button onclick="n2()">2</button>
-        <button onclick="n3()">3</button>
-        <button onclick="suma()">+</button>
+      <h5 id="resultado" class="mt-4">
+    </h3>
+    <div>
+      <button onclick="n1()" class="mt-3">1</button>
+      <button onclick="n2()">2</button>
+      <button onclick="n3()">3</button>
+      <button onclick="suma()">+</button>
 
+      <div>
+        <button onclick="n4()">4</button>
+        <button onclick="n5()">5</button>
+        <button onclick="n6()">6</button>
+        <button onclick="resta()">-</button>
         <div>
-          <button onclick="n4()">4</button>
-          <button onclick="n5()">5</button>
-          <button onclick="n6()">6</button>
-          <button onclick="resta()">-</button>
+          <button onclick="n7()">7</button>
+          <button onclick="n8()">8</button>
+          <button onclick="n9()">9</button>
+          <button onclick="multiplicacion()">*</button>
           <div>
-            <button onclick="n7()">7</button>
-            <button onclick="n8()">8</button>
-            <button onclick="n9()">9</button>
-            <button onclick="multiplicacion()">*</button>
-            <div>
-              <button onclick="division()">/</button>
-              <button onclick="n0()">0</button>
-              <button onclick="borrar()">Borrar</button>
-              <button onclick="igual()">=</button>
-            </div>
-            <button onclick="cerrar()" class="mt-4 btn btn-danger">Menu</button>
+            <button onclick="division()">/</button>
+            <button onclick="n0()">0</button>
+            <button onclick="borrar()">Borrar</button>
+            <button onclick="igual()">=</button>
           </div>
+          <button onclick="cerrar()" class="mt-4 btn btn-danger">Menu</button>
         </div>
       </div>
+    </div>
 </body>
 <script src="../JS/logica.js"></script>
 
